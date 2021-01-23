@@ -10,8 +10,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/image-editor": "^2.3.0",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react-native-advance-image-cropper": "^1.1.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-rotate": "^2.1.0",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.15.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

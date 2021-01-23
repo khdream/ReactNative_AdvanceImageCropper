@@ -8,6 +8,10 @@ target 'AdvanceImageCropper' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNImageRotate', :path => '../node_modules/react-native-image-rotate'
+
+  pod 'react-native-image-editor', :path => '../node_modules/@react-native-community/image-editor'
+
   target 'AdvanceImageCropperTests' do
     inherit! :complete
     # Pods for testing
